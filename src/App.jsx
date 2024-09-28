@@ -1,13 +1,14 @@
 import './App.css'
-import { AppCoffeeCarruselBasic } from './Components/AppCoffeeCarruselBasic'
+import { CatGalleryFetch } from './Components/CatGalleryFetch'
+// import { AppCoffeeCarruselBasic } from './Components/AppCoffeeCarruselBasic'
 
 function App() {
 
   return (
     <>
       <div>
-       
-        <AppCoffeeCarruselBasic />
+        <CatGalleryFetch/> 
+        {/* <AppCoffeeCarruselBasic /> */}
       </div>
     </>
   )
