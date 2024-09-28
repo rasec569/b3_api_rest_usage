@@ -1,14 +1,16 @@
 import './App.css'
-import { CatGalleryFetch } from './Components/CatGalleryFetch'
-// import { AppCoffeeCarruselBasic } from './Components/AppCoffeeCarruselBasic'
+import { RickAndMortyAxios } from './Components/RickAndMortyAxios'
+//import { AppCoffeeCarruselBasic } from './Components/AppCoffeeCarruselBasic'//
+// import { CatGalleryFetch } from './Components/CatGalleryFetch'
 
 function App() {
 
   return (
     <>
       <div>
-        <CatGalleryFetch/> 
-        {/* <AppCoffeeCarruselBasic /> */}
+      <RickAndMortyAxios/>
+        {/* <CatGalleryFetch/> */}
+        {/*<AppCoffeeCarruselBasic />*/}
       </div>
     </>
   )
